@@ -1,0 +1,140 @@
+.horr{
+    border-top: 2px solid;
+    width: 95%;
+}
+.fol{
+    width: 40%;
+    background-attachment: fixed;
+    border-radius: 30px;
+    padding: 5px;
+    background-image: url('Titanium.jpg');
+    color: rgb(167, 157, 157);
+}
+.foll{
+    width:75%;
+    background-attachment: fixed;
+    border-radius: 30px;
+    padding: 10px;
+    background-image: url('img/elements/a.jpg');
+    color: rgb(177, 169, 169);
+}
+.field{
+    width:auto;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-attachment: fixed;
+    border-radius: 30px;
+    padding: 10px;
+    background-image: url('Titanium.jpg');
+    color: black;
+}
+.con{
+    width:100%;
+    font-size: 25px;
+    font-family: cursive ;
+    padding:10px;
+    background-image: url('Steel Gray.jpg') ;
+    border-radius: 20px;
+    color: rgb(153, 158, 161);
+}
+.cc{
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+}
+.parallax{
+    background-image: url('img/blog/p3.jpg');
+    border-radius: 20px;
+    height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: mymove 25s infinite;
+}
+@keyframes mymove{
+    from {background-image:url('c1.jpg');}
+    25% {background-image: url('img/blog/p4.jpg');}
+    50% {background-image: url('c2.jpg');}
+    75% {background-image: url('img/posts/p5.jpg');}
+    to {background-image: url('c1.jpg');}
+}
+.sticky{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url('Titanium.jpg');
+  border-radius: 20px;
+  padding: 30px;
+  font-size: 48px;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sticky1{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url('Titanium.jpg');
+  border-radius: 40px;
+  padding: 15px;
+  font-size: 48px;
+  color: black;
+  
+}
+.effect{
+    align-content: center;
+    border-radius: 20px;
+    display: none;
+    
+    z-index: 1;
+    width:100%;
+    height:100%;
+    background-color: lightblue;
+    
+    padding: 10px;
+}
+.eff{
+    background-image: url('Titanium.jpg');
+    margin: 5%auto 30%auto;
+    width: 90%;
+    border-radius: 60px;
+}
+.pro{
+    margin: 5%auto 30%auto;
+    width: 90%;
+    border-radius: 60px;
+}
+.it{
+    font-size:30px;
+}
+.itt{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(23, 74, 87);
+}
+.sign{
+    background-image: url('Titanium.jpg');
+    border-radius:20px;
+    padding: 3%;
+    color:rgb(202, 195, 195) ;
+}
+.cancel{
+    background-color: darkgrey;
+    border-radius: 10px;
+    padding: 5%;
+}
+.log{
+    background-color: rgb(247, 134, 168);
+    width: 100%;
+    border-radius:10px ;
+    padding: 3%;
+}
+input[type=text],input[type=password]{
+    border-radius: 30px;
+    width:65%;
+    padding:1%;
+    background-color:rgb(216, 213, 213);
+}
+input[type=placeholder]{
+    align-content: center;
+}

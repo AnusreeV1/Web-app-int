@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:lightskyblue;
+}
+input[type=text],input[type=password]{
+    border-radius: 10px;
+    width:50%;
+    padding: 2%;
+    background-color:rgb(219, 182, 182);
+}
+.it{
+    
+    font-size:30px;
+}
+.b1{
+    background-color: lightcoral;
+    color: black;
+    font-size: 40px;
+    padding:20px 20px;
+    border-radius: 20px;
+    margin: auto;
+    width: 40%;
+}
+.b2{
+    background-image: url('Titanium.jpg');
+    color: rgb(192, 190, 190);
+    font-size: large;
+    padding:20px 20px;
+    border-radius: 30px;
+    margin: auto;
+}
+.b2:hover{
+    opacity: 2;
+}
+.effect{
+    
+    align-content: center;
+    border-radius: 20px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width:100%;
+    height:100%;
+    
+    overflow: auto;
+    padding: 10px;
+}
+.eff{
+     
+    margin: 5%auto 30%auto;
+    width: 40%;
+    border-radius: 5px;
+}
+.close{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(14, 9, 9);
+}
+.close :hover,.close:focus{
+    color:brown;
+    cursor: pointer;
+}
+.cancel{
+    background-color: darkgrey;
+    border-radius: 50px;
+    padding: 3%;
+}
+.cancel1{
+    background-color: darkgrey;
+    border-radius: 30px;
+    padding: 2%;
+}
+.sign{
+    background-color:#7e2e66;
+    border-radius: 50px;
+    padding: 3%;
+}
+.log{
+    background-color: rgb(226, 82, 142);
+    width: 45%;
+    border-radius:10px ;
+    padding: 2%;
+}
+span.psw{
+    float: right;
+    padding-top: 15px;
+}
